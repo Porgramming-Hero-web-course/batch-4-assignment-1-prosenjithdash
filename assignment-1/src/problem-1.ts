@@ -1,11 +1,11 @@
 {
 
-// PROBLEM 1 --_> Answer --->
+// PROBLEM 1 : Answer --->
     function sumArray(numbers:number[]):number {
        
         const sum = numbers.reduce((acc, num) => acc + num, 0);
         return sum;
-        
+
     }
 
     //  const result = sumArray([1, 2, 3, 4, 5]);
